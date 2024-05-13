@@ -43,7 +43,7 @@ public class Cliente {
         PratoPrincipal pratoPrincipal = fabricaEscolhida.criarPratoPrincipal();
         Sobremesa sobremesa = fabricaEscolhida.criarSobremesa();
 
-        // Serve the dishes
+        // Servindo os pratos
         entrada.servir();
         pratoPrincipal.servir();
         sobremesa.servir();
